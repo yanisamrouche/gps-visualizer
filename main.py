@@ -71,3 +71,4 @@ if __name__ == "__main__":
     folium.Marker(location=coords2, tiles='OpenStreetMap', zoom_start=15).add_to(map)
     folium.Rectangle([(43.91955602015508,4.57328580852187),(45,5)]).add_to(map)
     map.save(outfile='map.html')
+###EER
